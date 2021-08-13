@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Museu Nacional</title>
+    <!--estilo customizado-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--normalize-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <div id="container"><!--inicio container-->
+        <header>
+            <div id="logo">
+                <h1><a href="#">Museu nacional</a></h1>
+            </div>
+        <nav>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisas</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="img/museu.png">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+
+                        <h4>Video: Conheça o Museu</h4>
+                        <iframe width="310" height="170" 
+                        src="https://www.youtube.com/embed/RGUYb-hivrc" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+
+                    </article>
+
+                    <article id="mapa">
+
+                        <h4>Mapa: Encontre o Museu</h4>
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.2265289!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1628865470673!5m2!1spt-BR!2sbr" 
+                        width="300" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    </article>
+
+                    <article id="exposicoes">
+                        <h4>Exposições</h4>
+                        <ul>
+                            <li>
+                                <a href="">Os assustadores insetos</a>
+                            </li>
+                            <li>
+                                <a href="">O cranio de Luiza, a mulher mais antiga do Brasil</a>
+                            </li>
+                            <li>
+                                <a href="">Preguiça gigante e dentes de sabre</a>
+                            </li>
+                            <li>
+                                <a href="">Plantas do Brasil central</a>
+                            </li>
+                            <li>
+                                <a href="">Tereza Cristina: A imperatriz arqueologa</a>
+                            </li>
+                            <li>
+                                <a href="">Arte com dinossauros, paleoarte</a>
+                            </li>
+                            <li>
+                                <a href=""><strong>Veja Todos (65)</strong></a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h4>200 Anos de História</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. 
+                            Nemo reiciendis quasi tempora facilis temporibus 
+                            eligendi inventore deserunt consequatur, minima sunt. 
+                            Expedita ex veniam, odit esse ullam corporis ab rem vero.
+                        </p>
+                        <a href=""><strong>Leia Mais</strong></a>
+                    </article>
+
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtd Pessoas</label>
+                                <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+                <section id="galeria">
+                    <h4>Galeria</h4>
+
+                    <a href="">
+                        <img src="img/imagem1.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem2.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem3.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem4.jpg" height="93" width="93">
+                    </a>
+
+                </section>
+            </aside>
+        </div>
+
+        <footer id="rodape">
+            <p>
+                    <a href="#">Home</a>
+                    <a href="#">Exposições</a>
+                    <a href="#">Pesquisas</a>
+                    <a href="#">Acervo</a>
+                    <a href="#">Videos</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contatos</a>
+            </p>
+            <p>
+                2019 <a href="">Museu Nacional</a> - Todos os direitos reservados
+            </p>
+        </footer>
+    </div><!--Fim container-->
+
+</body>
+</html>
