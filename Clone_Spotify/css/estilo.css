@@ -71,6 +71,11 @@ nav.nav-transparente{
     color: #000;
 }
 
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+    margin: 0 15px;
+}
+
 /*Estrutura de Conteúdos*/
 .caixa{
     padding: 20px 0;
